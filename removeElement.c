@@ -4,8 +4,8 @@ int removeElement(int *nums, int size, int val);
 
 int main()
 {
-    int nums[6] = {0, 2, 3, 7, 2, 5};
-    int size = removeElement(nums, 6, 2);
+    int nums[7] = {0, 2, 3, 7, 2, 5, 2};
+    int size = removeElement(nums, 7, 2);
     for (int i = 0; i < size; i++)
     {
         printf("%d", nums[i]);
